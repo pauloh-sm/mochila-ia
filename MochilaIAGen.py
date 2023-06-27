@@ -1,4 +1,5 @@
 import random
+import time
 
 def generate_individual(num_items):
     """
@@ -182,7 +183,7 @@ def genetic_algorithm(values, weights, max_capacity, population_size, mutation_r
     Retorna:
     Uma tupla contendo o melhor indivíduo encontrado e sua aptidão (valor total da mochila).
     """
-
+    start_time = time.time()
     num_items = len(values)
 
     # Gera a população inicial
@@ -206,6 +207,10 @@ def genetic_algorithm(values, weights, max_capacity, population_size, mutation_r
 
         # Gera a próxima geração da população
         population = next_generation(population, values, weights, max_capacity, mutation_rate)
+    
+    end_time = time.time()
+    execution_time = end_time - start_time
+    print("Tempo de execução: ", execution_time, "segundos")
 
     # Retorna o melhor indivíduo encontrado e sua aptidão
     return best_individual, best_fitness
@@ -214,6 +219,7 @@ def genetic_algorithm(values, weights, max_capacity, population_size, mutation_r
 values_backpack = [60, 100, 120]
 weights_backpack = [10, 20, 30]
 max_capacity_backpack = 40
+
 population_size_backpack = 100
 mutation_rate_backpack = 0.1
 num_iterations_backpack = 100
