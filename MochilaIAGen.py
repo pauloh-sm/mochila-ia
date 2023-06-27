@@ -33,24 +33,6 @@ def generate_population(population_size, num_items):
     # Assim, cada indivíduo é um vetor binário representando a presença (1) ou ausência (0) de cada item na mochila
     return [generate_individual(num_items) for _ in range(population_size)]
 
-def generate_population(population_size, num_items):
-    """
-    Função para gerar uma população inicial de indivíduos aleatórios para o problema da mochila.
-
-    Argumentos:
-    - population_size: O tamanho da população desejada.
-    - num_items: O número total de itens da mochila.
-
-    Retorna:
-    Uma lista contendo a população inicial de indivíduos, onde cada indivíduo é representado por um vetor binário.
-    """
-
-    # Utiliza list comprehension para criar uma lista com population_size indivíduos
-    # Cada indivíduo é gerado chamando a função generate_individual(num_items)
-    # Assim, cada indivíduo é um vetor binário representando a presença (1) ou ausência (0) de cada item na mochila
-    return [generate_individual(num_items) for _ in range(population_size)]
-
-
 def fitness_function(individual, values, weights, max_capacity):
     """
     Função de avaliação (fitness) para medir a aptidão de um indivíduo na resolução do problema da mochila.
@@ -229,14 +211,14 @@ def genetic_algorithm(values, weights, max_capacity, population_size, mutation_r
     return best_individual, best_fitness
 
 
-values = [60, 100, 120]
-weights = [10, 20, 30]
-max_capacity = 40
-population_size = 100
-mutation_rate = 0.1
-num_iterations = 100
+values_backpack = [60, 100, 120]
+weights_backpack = [10, 20, 30]
+max_capacity_backpack = 40
+population_size_backpack = 100
+mutation_rate_backpack = 0.1
+num_iterations_backpack = 100
 
-best_individual, best_fitness = genetic_algorithm(values, weights, max_capacity, population_size, mutation_rate, num_iterations)
+best_individual, best_fitness = genetic_algorithm(values_backpack, weights_backpack, max_capacity_backpack, population_size_backpack, mutation_rate_backpack, num_iterations_backpack)
 
 print("Melhor indivíduo:", best_individual)
 print("Melhor aptidão:", best_fitness)
