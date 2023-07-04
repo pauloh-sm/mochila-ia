@@ -2,7 +2,7 @@
 Comparação entre a utilização do algoritmo genético e o recozimento simulado para a resolução do problema
 
 - Algoritmo Genético x Recozimento Simulado
-    - 3 itens
+    - 3 itens  
     Algoritmo Genético  
     ![MochilaIAGen](https://github.com/pauloh-sm/mochila-ia/assets/67742402/574e60c4-ef9f-4a28-8add-7039f4921b0e)
     Recozimento Simulado
