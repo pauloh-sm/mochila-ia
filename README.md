@@ -16,10 +16,10 @@ Comparação entre a utilização do algoritmo genético e o recozimento simulad
 Aumentando a quantidade de indivíduos, o algoritmo genético se mostrou mais eficaz, mesmo apresentando um maior tempo para ser executado.
 
 Abaixo algumas execuções contínuas dos dois algoritmos com 20 indivíduos e tamanho máximo suportando de 20 quilos
-- Algoritmo Genético
-![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/4dfaba66-9e68-4ca3-a6aa-f79d996b13b9)
-- Recozimento Simulado
-![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/24bd75ad-bd6b-4c77-bc8e-a4ceff19c2f2)
+- Algoritmo Genético  
+![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/4dfaba66-9e68-4ca3-a6aa-f79d996b13b9)  
+- Recozimento Simulado  
+![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/24bd75ad-bd6b-4c77-bc8e-a4ceff19c2f2)  
 
 # Breve contexto sobre os algoritmos
 
