@@ -56,19 +56,16 @@ def knapsack_sa(values, weights, max_capacity, initial_temperature, cooling_rate
     return best_solution
 
 # Exemplo de uso
-values_backpack = [60, 100, 120]
-weights_backpack = [10, 20, 30]
-max_capacity_backpack = 40
+values_backpack = [2, 4, 3, 5, 1, 6, 2, 4, 3, 5, 1, 6, 2, 4, 3, 5, 1, 6, 22, 50]
+weights_backpack =  [5, 1, 3, 6, 2, 4, 5, 1, 3, 6, 2, 4, 5, 1, 3, 6, 2, 4, 18, 23]
+max_capacity_backpack = 20
 
-initial_temperature_backpack = 100.0
+initial_temperature_backpack = 1000.0
 cooling_rate_backpack = 0.95
-num_iterations_backpack = 1000
+num_iterations_backpack = 100
 
 best_solution = knapsack_sa(values_backpack, weights_backpack, max_capacity_backpack, initial_temperature_backpack, cooling_rate_backpack, num_iterations_backpack)
 total_value = sum(best_solution[i] * values_backpack[i] for i in range(len(best_solution)))
-total_weight = sum(best_solution[i] * weights_backpack[i] for i in range(len(best_solution)))
 
-print("Melhor solução encontrada:")
-print(best_solution)
+print("Melhor indivíduo:", best_solution)
 print("Valor total: ", total_value)
-print("Peso total: ", total_weight)

@@ -216,9 +216,9 @@ def genetic_algorithm(values, weights, max_capacity, population_size, mutation_r
     return best_individual, best_fitness
 
 
-values_backpack = [60, 100, 120]
-weights_backpack = [10, 20, 30]
-max_capacity_backpack = 40
+values_backpack = [2, 4, 3, 5, 1, 6, 2, 4, 3, 5, 1, 6, 2, 4, 3, 5, 1, 6, 22, 50]
+weights_backpack =  [5, 1, 3, 6, 2, 4, 5, 1, 3, 6, 2, 4, 5, 1, 3, 6, 2, 4, 18, 23]
+max_capacity_backpack = 20
 
 population_size_backpack = 100
 mutation_rate_backpack = 0.1
@@ -227,4 +227,4 @@ num_iterations_backpack = 100
 best_individual, best_fitness = genetic_algorithm(values_backpack, weights_backpack, max_capacity_backpack, population_size_backpack, mutation_rate_backpack, num_iterations_backpack)
 
 print("Melhor indivíduo:", best_individual)
-print("Melhor aptidão:", best_fitness)
+print("Valor total:", best_fitness)
