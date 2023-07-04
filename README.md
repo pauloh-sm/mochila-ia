@@ -22,7 +22,6 @@ Abaixo algumas execuções contínuas dos dois algoritmos com 20 indivíduos e t
 ![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/24bd75ad-bd6b-4c77-bc8e-a4ceff19c2f2)
 
 # Breve contexto sobre os algoritmos
-------------------------------
 
 ## Algoritmo Genético:
 O algoritmo genético é uma técnica de busca e otimização inspirada no processo de evolução biológica. Ele começa com uma população inicial de soluções (indivíduos) representadas por cromossomos, onde cada cromossomo codifica uma possível solução para o problema em questão. Durante a evolução, os operadores genéticos, como seleção, recombinação (crossover) e mutação, são aplicados para criar novas soluções. A avaliação da qualidade de cada solução é feita por uma função de fitness, que quantifica o quão boa é a solução. As soluções mais aptas têm maior probabilidade de serem selecionadas e reproduzidas, enquanto soluções menos aptas têm menor probabilidade de sobreviver. O algoritmo genético evolui iterativamente, gerando novas gerações de soluções, até atingir um critério de parada, geralmente um número máximo de iterações ou uma condição de convergência.
