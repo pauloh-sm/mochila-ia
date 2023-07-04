@@ -4,13 +4,13 @@ Comparação entre a utilização do algoritmo genético e o recozimento simulad
 - Algoritmo Genético x Recozimento Simulado
     - 3 itens  
     Algoritmo Genético  
-    ![MochilaIAGen](https://github.com/pauloh-sm/mochila-ia/assets/67742402/574e60c4-ef9f-4a28-8add-7039f4921b0e)
-    Recozimento Simulado
-    ![MochilaIARS](https://github.com/pauloh-sm/mochila-ia/assets/67742402/7df720d7-a6e0-479b-bbb1-f4ba734524f8)
-    - 18 itens
-    Algoritmo Genético
-    ![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/7d647638-883b-48af-86ce-3cee6275c612)
-    Recozimento Simulado
+    ![MochilaIAGen](https://github.com/pauloh-sm/mochila-ia/assets/67742402/574e60c4-ef9f-4a28-8add-7039f4921b0e)  
+    Recozimento Simulado  
+    ![MochilaIARS](https://github.com/pauloh-sm/mochila-ia/assets/67742402/7df720d7-a6e0-479b-bbb1-f4ba734524f8)  
+    - 18 itens  
+    Algoritmo Genético  
+    ![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/7d647638-883b-48af-86ce-3cee6275c612)  
+    Recozimento Simulado  
     ![image](https://github.com/pauloh-sm/mochila-ia/assets/67742402/f660d1a3-7817-4014-bb47-e0a472854393)
 
 Aumentando a quantidade de indivíduos, o algoritmo genético se mostrou mais eficaz, mesmo apresentando um maior tempo para ser executado.
